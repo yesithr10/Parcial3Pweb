@@ -1,9 +1,13 @@
 <br><br>
 <div class="agregar">
-    <button class="btn btn-success" style="float: right;">Agregar arriendo</button>
-    <button class="btn btn-primary" style="float: left;">Agregar inmueble</button>
+    <button class="btn btn-success" style="float: right;" [routerLink]="['/agregar-arriendo']">Agregar arriendo</button>
+    <button class="btn btn-primary" style="float: left;" [routerLink]="['/agregar-inmueble']">Agregar inmueble</button>
 </div>
 <br><br>
+<div class="busqueda">
+    <label for="busqueda">Filtro por matricula de inmueble:</label>
+    <input class="form-control" type="text" name="busuqeda" id="busqueda" [(ngModel)]="busqueda">
+</div>
 <div class="inmuebles">
     <h1>INMUEBLES</h1>
     <table class="table">
@@ -16,11 +20,11 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <th>1</th>
-                <th>0001</th>
-                <th>Calle 11 # 21 - 04</th>
-                <th>1.500.000</th>
+        <tr *ngFor="let inmueble of inmuebles | filtroInmueble:busqueda; index as i">
+                <th>{{ i + 1 }}</th>
+                <th>{{ inmueble.matriculaInmobiliaria }}</th>
+                <th>{{ inmueble.direccion }}</th>
+                <th>{{ inmueble.valorArriendo }}</th>
             </tr>
         </tbody>
     </table>
@@ -40,13 +44,13 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <th>1</th>
-                <th>0001</th>
-                <th>201611674022</th>
-                <th>Carl Anderson</th>
-                <th>5</th>
-                <th>3.5000.000</th>
+            <tr *ngFor="let arriendo of arriendos | filtroArriendo:busqueda; index as i">
+                <th>{{ i + 1 }}</th>
+                <th>{{ arriendo.matriculaInmueble }}</th>
+                <th>{{ arriendo.identificacionArrendatario }}</th>
+                <th>{{ arriendo.nombreArrendatario }}</th>
+                <th>{{ arriendo.mesesAlquiler }}</th>
+                <th>{{ arriendo.valorDeposito }}</th>
             </tr>
         </tbody>
     </table>

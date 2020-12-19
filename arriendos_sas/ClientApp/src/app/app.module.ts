@@ -12,6 +12,8 @@ import { FooterComponent } from './Arriendo/footer/footer.component';
 import { InicioComponent } from './Arriendo/inicio/inicio.component';
 import { AgregarInmuebleComponent } from './Arriendo/agregar-inmueble/agregar-inmueble.component';
 import { AgregarArriendoInmuebleComponent } from './Arriendo/agregar-arriendo-inmueble/agregar-arriendo-inmueble.component';
+import { FiltroArriendoPipe } from './pipes/filtro-arriendo.pipe';
+import { FiltroInmueblePipe } from './pipes/filtro-inmueble.pipe';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { AgregarArriendoInmuebleComponent } from './Arriendo/agregar-arriendo-in
     FooterComponent,
     InicioComponent,
     AgregarInmuebleComponent,
-    AgregarArriendoInmuebleComponent
+    AgregarArriendoInmuebleComponent,
+    FiltroArriendoPipe,
+    FiltroInmueblePipe
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
