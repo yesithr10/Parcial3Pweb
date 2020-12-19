@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aGbi2WK63lpjzEZFAzGMsvX/EHuqVHwppPsKbMekwxLMBReyvTxbXhltP0GrRB99MkT8y3/n6lnN3x7cgJwb+Q==",
+  "dgSpecHash": "YxuG85iGhnYUq+PeS8FuShzPVd2XQCaAQLA5/c7GOMgCdXsX3gAqmgGBrqWHAhoQBMWC6pR7tPA0otRb59r6GA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Ghost\\Desktop\\orojano\\Logica\\Logica.csproj",
+  "projectFilePath": "C:\\Users\\Ghost\\Desktop\\orojano\\Logica\\Logica.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ghost\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Ghost\\.nuget\\packages\\microsoft.data.sqlclient\\1.0.19249.1\\microsoft.data.sqlclient.1.0.19249.1.nupkg.sha512",

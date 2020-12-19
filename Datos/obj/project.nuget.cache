@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9YV3UjoI5qA+Bq6FnTe4FNk6K05VM0bwBXEeRMqRmDnD/zm3+F8JkN81SUqxyvRNH7qwyByMEpxYRvZpFQcO0A==",
+  "dgSpecHash": "MX9CDZLX62FObUGB4fuPJU2yR4rK5Q8KX9cmRzFF7qYS6ic5OxBP2ijNh43hCdp0igvHGVLSAKSJMWtM+5PUQw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Ghost\\Desktop\\orojano\\Datos\\Datos.csproj",
+  "projectFilePath": "C:\\Users\\Ghost\\Desktop\\orojano\\Datos\\Datos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ghost\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Ghost\\.nuget\\packages\\microsoft.data.sqlclient\\1.0.19249.1\\microsoft.data.sqlclient.1.0.19249.1.nupkg.sha512",

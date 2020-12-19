@@ -4869,11 +4869,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Ghost\\Desktop\\orojano\\Datos\\Datos.csproj",
+      "projectUniqueName": "C:\\Users\\Ghost\\Desktop\\orojano\\Datos\\Datos.csproj",
       "projectName": "Datos",
-      "projectPath": "c:\\Users\\Ghost\\Desktop\\orojano\\Datos\\Datos.csproj",
+      "projectPath": "C:\\Users\\Ghost\\Desktop\\orojano\\Datos\\Datos.csproj",
       "packagesPath": "C:\\Users\\Ghost\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Ghost\\Desktop\\orojano\\Datos\\obj\\",
+      "outputPath": "C:\\Users\\Ghost\\Desktop\\orojano\\Datos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ghost\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4890,8 +4890,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj": {
-              "projectPath": "c:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj"
+            "C:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj": {
+              "projectPath": "C:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj"
             }
           }
         }

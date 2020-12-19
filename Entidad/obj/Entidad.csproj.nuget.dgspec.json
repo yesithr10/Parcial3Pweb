@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj": {}
+    "C:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj": {
+    "C:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj",
+        "projectUniqueName": "C:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj",
         "projectName": "Entidad",
-        "projectPath": "c:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj",
+        "projectPath": "C:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj",
         "packagesPath": "C:\\Users\\Ghost\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\obj\\",
+        "outputPath": "C:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ghost\\AppData\\Roaming\\NuGet\\NuGet.Config",
