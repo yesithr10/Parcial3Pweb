@@ -1,5 +1,5 @@
 export class ArriendoInmueble {
-    matriculaInmuebe: string;
+    matriculaInmueble: string;
     identificacionArrendatario: string;
     nombreArrendatario: string;
     mesesAlquiler: number;
