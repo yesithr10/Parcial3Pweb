@@ -25,6 +25,10 @@ namespace arriendos_sas
             var connectionString = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<ArriendoContext>(p => p.UseSqlServer(connectionString));
             services.AddControllersWithViews();
+            
+            //Add swagger
+            services.AddSwaggerGen();
+            
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
@@ -52,6 +56,15 @@ namespace arriendos_sas
             {
                 app.UseSpaStaticFiles();
             }
+
+            
+            //Inicio de swagger
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c => {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
+            //Final de swagger
 
             app.UseRouting();
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jQ32efBT+IZZ75evyQnoW4HPl6x6L9H4DruIhHN/EGcXnTZTwCMqEDizdkRlortVYUxOkNrx2mhjHuFJchWc3g==",
+  "dgSpecHash": "Kif91klGIrqzoeO0RpO+7OlayrJboibarhKOOc+a9gWGhKU/USCSdarAkBvOv4LE5bkeATH+DZzA6/uen1Ak6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj",
+  "projectFilePath": "c:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ghost\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
   ],

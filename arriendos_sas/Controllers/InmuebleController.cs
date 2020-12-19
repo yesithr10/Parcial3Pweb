@@ -3,6 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Entidad;
+using Logica;
+using Datos;
+using arriendos_sas.models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -12,36 +16,52 @@ namespace arriendos_sas.Controllers
     [ApiController]
     public class InmuebleController : ControllerBase
     {
+        //Llamada al servicio de inmueble
+        private readonly InmuebleService _inmuebleService;
+
+        //Constructor de la clase
+        public InmuebleController(ArriendoContext arriendoContext)
+        {
+            _inmuebleService = new InmuebleService(arriendoContext);
+        }
         // GET: api/<InmuebleController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<InmuebleViewModel> Get()
         {
-            return new string[] { "value1", "value2" };
+            var inmuebles = _inmuebleService.ConsultarInmuebles().Select(result => new InmuebleViewModel(result));
+            return inmuebles;
         }
 
         // GET api/<InmuebleController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public InmuebleViewModel Get(string id)
         {
-            return "value";
+            var inmueble = _inmuebleService.ConsultarInmuebles().Where(result => result.MatriculaInmobiliaria == id).Select(result => new InmuebleViewModel(result)).FirstOrDefault();
+            return inmueble;
         }
 
         // POST api/<InmuebleController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public ActionResult<InmuebleViewModel> Post(InmuebleInputModel inmuebleInput)
         {
+            Inmueble inmueble = MapearInmueble(inmuebleInput);
+            RespuestaGuardarInmueble respuestaGuardarInmueble = _inmuebleService.GuardarInmueble(inmueble);
+            var respuesta = respuestaGuardarInmueble;
+            if (respuesta.Error)
+            {
+                return BadRequest(respuesta.Error);
+            }
+            return Ok(respuesta.Inmueble);
         }
-
-        // PUT api/<InmuebleController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        private Inmueble MapearInmueble(InmuebleInputModel inmuebleInput)
         {
-        }
-
-        // DELETE api/<InmuebleController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            var inmueble = new Inmueble
+            {
+                MatriculaInmobiliaria = inmuebleInput.MatriculaInmobiliaria,
+                Direccion = inmuebleInput.Direccion,
+                ValorArriendo = inmuebleInput.ValorArriendo
+            };
+            return inmueble;
         }
     }
 }
