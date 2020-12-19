@@ -1,36 +1,36 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
-
 import { AppComponent } from './app.component';
-import { NavMenuComponent } from './nav-menu/nav-menu.component';
-import { HomeComponent } from './home/home.component';
-import { CounterComponent } from './counter/counter.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { AppRoutingModule } from './app-routing.module';
+import { InmuebleService } from './services/inmueble.service';
+import { ArriendoInmuebleService } from './services/arriendo-inmueble.service';
+import { NavbarComponent } from './Arriendo/navbar/navbar.component';
+import { FooterComponent } from './Arriendo/footer/footer.component';
+import { InicioComponent } from './Arriendo/inicio/inicio.component';
+import { AgregarInmuebleComponent } from './Arriendo/agregar-inmueble/agregar-inmueble.component';
+import { AgregarArriendoInmuebleComponent } from './Arriendo/agregar-arriendo-inmueble/agregar-arriendo-inmueble.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavMenuComponent,
-    HomeComponent,
-    CounterComponent,
-    FetchDataComponent
+    NavbarComponent,
+    FooterComponent,
+    InicioComponent,
+    AgregarInmuebleComponent,
+    AgregarArriendoInmuebleComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'counter', component: CounterComponent },
-      { path: 'fetch-data', component: FetchDataComponent },
     ]),
     AppRoutingModule
   ],
-  providers: [],
+  providers: [InmuebleService, ArriendoInmuebleService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
