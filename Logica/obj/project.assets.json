@@ -4883,19 +4883,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ghost\\.nuget\\packages\\": {}
+    "C:\\Users\\ORLAN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Ghost\\Desktop\\orojano\\Logica\\Logica.csproj",
+      "projectUniqueName": "C:\\Users\\ORLAN\\Desktop\\Para el parcial 3\\Parcial3\\Logica\\Logica.csproj",
       "projectName": "Logica",
-      "projectPath": "c:\\Users\\Ghost\\Desktop\\orojano\\Logica\\Logica.csproj",
-      "packagesPath": "C:\\Users\\Ghost\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Ghost\\Desktop\\orojano\\Logica\\obj\\",
+      "projectPath": "C:\\Users\\ORLAN\\Desktop\\Para el parcial 3\\Parcial3\\Logica\\Logica.csproj",
+      "packagesPath": "C:\\Users\\ORLAN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ORLAN\\Desktop\\Para el parcial 3\\Parcial3\\Logica\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ghost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ORLAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4909,11 +4909,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Users\\Ghost\\Desktop\\orojano\\Datos\\Datos.csproj": {
-              "projectPath": "c:\\Users\\Ghost\\Desktop\\orojano\\Datos\\Datos.csproj"
+            "C:\\Users\\ORLAN\\Desktop\\Para el parcial 3\\Parcial3\\Datos\\Datos.csproj": {
+              "projectPath": "C:\\Users\\ORLAN\\Desktop\\Para el parcial 3\\Parcial3\\Datos\\Datos.csproj"
             },
-            "c:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj": {
-              "projectPath": "c:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj"
+            "C:\\Users\\ORLAN\\Desktop\\Para el parcial 3\\Parcial3\\Entidad\\Entidad.csproj": {
+              "projectPath": "C:\\Users\\ORLAN\\Desktop\\Para el parcial 3\\Parcial3\\Entidad\\Entidad.csproj"
             }
           }
         }

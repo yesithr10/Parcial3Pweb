@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Kif91klGIrqzoeO0RpO+7OlayrJboibarhKOOc+a9gWGhKU/USCSdarAkBvOv4LE5bkeATH+DZzA6/uen1Ak6Q==",
+  "dgSpecHash": "HukvN3AI9yAi/IsQyvN68X9AcElR67ygUIa5vyy7EdSykED0F6lUvGiU5iOg4xgn4Q4JRsvstimvCgrSCQudcQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj",
+  "projectFilePath": "C:\\Users\\ORLAN\\Desktop\\Para el parcial 3\\Parcial3\\Entidad\\Entidad.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Ghost\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    "C:\\Users\\ORLAN\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

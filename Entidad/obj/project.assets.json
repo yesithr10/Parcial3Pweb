@@ -110,19 +110,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ghost\\.nuget\\packages\\": {}
+    "C:\\Users\\ORLAN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj",
+      "projectUniqueName": "C:\\Users\\ORLAN\\Desktop\\Para el parcial 3\\Parcial3\\Entidad\\Entidad.csproj",
       "projectName": "Entidad",
-      "projectPath": "c:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\Entidad.csproj",
-      "packagesPath": "C:\\Users\\Ghost\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Ghost\\Desktop\\orojano\\Entidad\\obj\\",
+      "projectPath": "C:\\Users\\ORLAN\\Desktop\\Para el parcial 3\\Parcial3\\Entidad\\Entidad.csproj",
+      "packagesPath": "C:\\Users\\ORLAN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ORLAN\\Desktop\\Para el parcial 3\\Parcial3\\Entidad\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ghost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ORLAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
